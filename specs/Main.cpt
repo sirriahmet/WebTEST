@@ -1,0 +1,31 @@
+Created by 90538 on 23.04.2021
+
+This is a concept file with following syntax for each concept.
+# Kullanıcı adı <username> ve şifre bilgisi <password> ile login işlemi tamamlanır
+*Id'si "myAccount" olan elemente tıkla.
+*Id'si "login" olan elemente tıkla.
+*"2" Saniye Bekle
+*Id'si "txtUserName" olan elementi bul ve <username> değeri yaz
+*Id'si "txtPassword" olan elementi bul ve <password> değeri yaz
+*"2" Saniye Bekle
+*Id'si "btnLogin" olan elemente tıkla.
+*"2" Saniye Bekle
+
+# Login işleminin yapıldığı kontrol edilir
+*Login kontrolü yapılır
+
+# Eğer login işlemi gerçekleştiyse sepet tutar kontrolü yapılır
+* Sepet tutar kontrolü
+
+# Rasgele bir kategori ve alt kategori seçilir
+*Xpath'i "//li[@class='sf-MenuItems-1-U3X'][3]" olan elemente tıkla.
+*Xpath'i "//a[@class='sf-ChildMenuItems-3R6bj item-1424']" olan elemente tıkla.
+*"2" Saniye Bekle
+*Xpath'i "//a[@class=' hbus e5c16843-3fb1-45aa-aafd-690d8b05e44b']" olan elemente tıkla.
+
+# <altlimit>TL ile <ustlimit>TL değerleri arasından rasgele bir ürün seçilir ve csv dosyasına yazdırılır
+*Xpath'i "//div[@class='range-contain-row left'][input][1]" olan elementi bul ve <altlimit> değeri yaz
+*Xpath'i "//div[@class='range-contain-row left'][input][2]" olan elementi bul ve <ustlimit> değeri yaz
+*Xpath'i "//button[@class='button small']" olan elemente tıkla.
+*Rasgele bir ürün seçilir,isim ve fiyat değeri alınır
+
